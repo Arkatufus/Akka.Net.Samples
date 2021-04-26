@@ -11,6 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatMessages", "Single.File
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatServer", "Single.File.Publish\src\ChatServer\ChatServer.csproj", "{DF7A1848-32A3-43AA-AA19-7E24025FA4B5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple.Cluster", "Simple.Cluster\Simple.Cluster.csproj", "{D5B1FFB0-9566-4C79-B356-E142A8524BC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{7C2E747D-B23D-4516-8E3E-76D46141FA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure", "Persistence\Azure\Azure.csproj", "{1A1236AF-63E9-429D-AA68-247B718773D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +35,14 @@ Global
 		{DF7A1848-32A3-43AA-AA19-7E24025FA4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF7A1848-32A3-43AA-AA19-7E24025FA4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF7A1848-32A3-43AA-AA19-7E24025FA4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B1FFB0-9566-4C79-B356-E142A8524BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B1FFB0-9566-4C79-B356-E142A8524BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B1FFB0-9566-4C79-B356-E142A8524BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B1FFB0-9566-4C79-B356-E142A8524BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1236AF-63E9-429D-AA68-247B718773D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1236AF-63E9-429D-AA68-247B718773D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1236AF-63E9-429D-AA68-247B718773D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1236AF-63E9-429D-AA68-247B718773D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +51,7 @@ Global
 		{C2D4EEC7-B8D3-440E-A2C8-C649AB5B91BF} = {E10902CA-2394-496E-A7F3-70C7CEFFA491}
 		{756DDA27-6C2D-4CFC-90AB-F80AA6B0D7BE} = {E10902CA-2394-496E-A7F3-70C7CEFFA491}
 		{DF7A1848-32A3-43AA-AA19-7E24025FA4B5} = {E10902CA-2394-496E-A7F3-70C7CEFFA491}
+		{1A1236AF-63E9-429D-AA68-247B718773D2} = {7C2E747D-B23D-4516-8E3E-76D46141FA5C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5640AAAB-BEAA-4853-B001-5D6168E5498C}

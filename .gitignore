@@ -5,3 +5,9 @@ Single.File.Publish/src/ChatMessages/bin/
 Single.File.Publish/src/ChatMessages/obj/
 Single.File.Publish/src/ChatServer/bin/
 Single.File.Publish/src/ChatServer/obj/
+.vs/
+Distributed.PubSub/obj/
+Simple.Cluster/bin/
+Simple.Cluster/obj/
+Persistence/Azure/obj/
+Persistence/Azure/bin/
