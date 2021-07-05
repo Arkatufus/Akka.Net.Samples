@@ -11,3 +11,10 @@ Simple.Cluster/bin/
 Simple.Cluster/obj/
 Persistence/Azure/obj/
 Persistence/Azure/bin/
+.idea/
+Distributed.PubSub/PubSub.Client/bin/
+Distributed.PubSub/PubSub.Client/obj/
+Distributed.PubSub/PubSub.Messages/bin/
+Distributed.PubSub/PubSub.Messages/obj/
+Distributed.PubSub/PubSub.Server/bin/
+Distributed.PubSub/PubSub.Server/obj/
