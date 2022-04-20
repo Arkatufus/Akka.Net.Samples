@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "Simple.Clu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterSharding.Node", "Simple.Cluster.Sharding\ClusterSharding.Node\ClusterSharding.Node.csproj", "{05389CF0-85C5-4A9C-8CD5-92D7937ADBAA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Akka.Hosting", "Akka.Hosting", "{74C01B2D-2DDA-497C-8F4F-C009CBD853DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedService", "Akka.Hosting\HostedService\HostedService.csproj", "{FFDE1356-8EB0-443E-B87D-4DF2DB682F1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +87,10 @@ Global
 		{05389CF0-85C5-4A9C-8CD5-92D7937ADBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05389CF0-85C5-4A9C-8CD5-92D7937ADBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05389CF0-85C5-4A9C-8CD5-92D7937ADBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDE1356-8EB0-443E-B87D-4DF2DB682F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDE1356-8EB0-443E-B87D-4DF2DB682F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDE1356-8EB0-443E-B87D-4DF2DB682F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDE1356-8EB0-443E-B87D-4DF2DB682F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +106,7 @@ Global
 		{DAF01951-98E5-425F-B637-7EDF1F3ABB13} = {948E1C3E-C486-4425-AAEE-A4F29B407D5B}
 		{D8CCF439-BFC3-4814-8708-239E37137BD8} = {948E1C3E-C486-4425-AAEE-A4F29B407D5B}
 		{05389CF0-85C5-4A9C-8CD5-92D7937ADBAA} = {948E1C3E-C486-4425-AAEE-A4F29B407D5B}
+		{FFDE1356-8EB0-443E-B87D-4DF2DB682F1F} = {74C01B2D-2DDA-497C-8F4F-C009CBD853DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5640AAAB-BEAA-4853-B001-5D6168E5498C}
