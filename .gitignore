@@ -18,3 +18,7 @@ Distributed.PubSub/PubSub.Messages/bin/
 Distributed.PubSub/PubSub.Messages/obj/
 Distributed.PubSub/PubSub.Server/bin/
 Distributed.PubSub/PubSub.Server/obj/
+Simple.Cluster.Sharding/ClusterSharding.Node/bin/
+Simple.Cluster.Sharding/ClusterSharding.Node/obj/
+Simple.Cluster.Sharding/ShardingNode/obj/
+Simple.Cluster.Sharding/SharedLibrary/obj/

@@ -5,25 +5,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Akka.Actor;
 using Akka.Configuration;
-using Akka.Cluster;
 
 namespace Simple.Cluster
 {
     class Program
     {
-        private static string[] _ports = {"25251", "25252"};
+        private static readonly string[] Ports = {"25251", "25252", "0"};
 
         internal static async Task<int> Main(string[] args)
         {
-            if (args.Length == 0)
-            {
-                args = new[] {"25251", "25252", "0"};
-            }
-
             var systems = new List<ActorSystem>();
-            foreach (var arg in args)
+            foreach (var port in Ports)
             {
-                systems.Add(Startup(arg));
+                systems.Add(Startup(port));
             }
 
             Console.ReadLine();
