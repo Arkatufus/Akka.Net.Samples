@@ -24,3 +24,9 @@ Simple.Cluster.Sharding/ShardingNode/obj/
 Simple.Cluster.Sharding/SharedLibrary/obj/
 Akka.Hosting/HostedService/bin/
 Akka.Hosting/HostedService/obj/
+ClusterClient/Sample.Cluster/bin/
+ClusterClient/Sample.Cluster/obj/
+ClusterClient/Sample.Shared/bin/
+ClusterClient/Sample.Shared/obj/
+ClusterClient/Sample.Client/bin/
+ClusterClient/Sample.Client/obj/
